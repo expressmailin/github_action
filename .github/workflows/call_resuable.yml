@@ -2,7 +2,7 @@ on: push
 jobs:
   my-job:
     # Importing a reusable workflow from another repository and branch
-    uses: organization/actions-learning-pathway/.github/workflows/reusable_workflow.yml@main
+    uses: expressmailin/actions-learning-pathway/.github/workflows/reusable_workflow.yml@main
     # Passing 'node-version' as an input parameter to the reusable workflow
     with:
       node-version: '18.x'
